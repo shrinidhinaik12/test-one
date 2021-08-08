@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&family=Russo+One&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <script src="https://unicons.iconscout.com/release/v4.0.0/script/monochrome/bundle.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="default.css">
+    <link id="theme-style" rel="stylesheet" type="text/css" href="">
+    <style>
+        body{
+            background-color: var(--mainColor);
+        }
+        .feedback{
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 800px;
+            max-width: 85%;
+
+            text-align: center;
+
+            padding: 20px 30px 50px 30px;
+            box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+        
+
+            background-color: var(--quaternaryColor);
+            border: 0.3px solid var(--borderColor);
+
+            cursor: pointer;
+            transition-duration: 0.3s;
+        }
+        .feedback:hover{
+            background-color: black;
+        }
+        .greeting{
+            color: white;
+            text-align: center;
+        }
+        .return-btn{
+            color: white;
+            background-color: var(--quaternaryColor);
+
+            padding: 12px 20px;
+
+            border: none;
+
+            cursor: pointer;
+            transition-duration: 0.2s;
+        }
+        .return-btn:hover{
+            padding: 12px 21px;
+            color: var(--mainText);
+            background-color: var(--mainColor);
+        }
+        @media screen and (max-width: 800px) {
+            .feedback{
+                position: fixed;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                width: 70%;
+                font-size: 13px;
+            }
+            .greeting{
+                color: white;
+                text-align: center;
+                font-size: 25px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="feedback">
+        <h1 class="greeting">Thank You for your Feedback!</h1>
+        <br><br>
+        <a href="close.html"><button class="return-btn">Return to Homepage ?</button></a>
+    </div>
+</body>
+</html>

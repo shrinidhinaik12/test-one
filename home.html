@@ -1,1 +1,365 @@
-<h1> My Portfolio </h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shrinidhi Naik</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximun-scale=1, mminimum-scale=1" />
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <script src="https://unicons.iconscout.com/release/v4.0.0/script/monochrome/bundle.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="default.css">
+    <link id="theme-style" rel="stylesheet" type="text/css" href="">
+    
+</head>
+<body id="start">
+    <div id="blur">
+    <section class="s1" id="blur">
+        <div class="main-container">
+            <div class="greeting-wrapper">
+                <h1>Hi I'm Shrinidhi Naik</h1>
+            </div>
+
+            <div class="intro-wrapper">
+                <div class="nav-wrapper">
+                    <div class="dots-wrapper">
+                        <div id="dot-1" class="browser-dot"></div>
+                        <div id="dot-2" class="browser-dot"></div>
+                        <div id="dot-3" class="browser-dot"></div>
+                    </div>
+                    <ul id="navigation">
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="left-column">
+                    <img id="profile-pic" src="images/profile-image.jpg">
+                    <h5 style="text-align:center; line-height: 0; font-size: 20px;">Personalize Theme</h5>
+
+                    <div id="theme-options-wrapper">
+                        <div data-mode="light" id="light-mode" class="theme-dot"></div>
+                        <div data-mode="blue" id="blue-mode" class="theme-dot"></div>
+                        <div data-mode="green" id="green-mode" class="theme-dot"></div>
+                        <div data-mode="purple" id="purple-mode" class="theme-dot"></div>
+                        <div data-mode="dark" id="dark-mode" class="theme-dot"></div>
+                    </div>
+
+                    <p id="settings-note">*Theme options will be saved for <br> your next visit*</p>
+                </div>
+                <div class="right-column">
+                    <div id="intro-line-wrapper">
+                        <h3>My Forte!</h3>
+                        <p style="font-size: 13px;">I Design & Build Elegant User Interface</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="s2">
+        <div class="main-container">
+            <div class="about-wrapper">
+                <div class="about-me">
+                    <h4 style="color: white;">More About Me</h4>
+
+                    <p>Every once in a while I build new Projects because.... <br>
+                        Well, because I want to...!
+                    </p>
+
+                    <p>And whilst I do that, I tend to take photos <br> and edit them just to chill out.. <br>
+                        By the way you can find them on my Instagram <br>
+                        I also tend to keep up with making videos on Youtube, <br> Mostly Tech!</p>
+
+                        <hr>
+
+                        <h4 style="color: white;">MY EXPERTISE</h4>
+                        <p>Junior Web Developer with primary focus on <br> HTML CSS & JavaScript!</p>
+                        <div id="skills-wrapper">
+                            <ul id="skills-one">
+                                <li>Angular</li>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>JavaScript</li>
+                            </ul>
+        
+                            <ul id="skills-two">
+                                <li>Figma</li>
+                                <li>Adobe XD</li>
+                                <li>C</li>
+                                <li>C++</li>
+                            </ul>
+                            <br>
+                        </div>
+                        <br><br>
+                        <hr>
+                </div>
+                <div style="color: white;" class="skill-chart">
+                    <h4 id="skills-main-header" style="color: white;">My Technical Skills</h4>
+                    <div class="skill-container-grid">
+                        <div class="skill-content">
+                            <div class="skill-header">
+                                <i id="skills-icon" class="uil uil-brackets-curly skills__icon"></i>
+                                <h3 id="skill-title" class="skills-title">FrontEnd Developer</h3>
+                                <button onclick="frontEnd()" class="open" id="view-skills-btn">View</button>
+                            </div><br>
+                            <div class="skill-header">
+                                <i id="skills-icon" class="uil uil-server-network skills__icon"></i>
+                                <h3 id="skill-title" class="skills-title">BackEnd Developer</h3>
+                                <button onclick="backEnd()" id="view-skills-btn">View</button>
+                            </div><br>
+                            <div class="skill-header">
+                                <i id="skills-icon" class="uil uil-swatchbook skills__icon"></i>
+                                <h3 id="skill-title" class="skills-title">UI UX Designer</h3>
+                                <button onclick="uiux()" id="view-skills-btn">View</button>
+                            </div><br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="s1">
+        <div class="main-container">
+            <h2 style="margin-top: 80px;" id="my-works-heading">My Works</h2>
+            <div class="project-wrapper">
+                
+                    <div id="container-one" class="project-container">
+                        <h4 id="project-heading">Project One</h4>
+                        <div id="project-img">
+                            <img src="" alt="">
+                        </div>
+                        <a target="_blank" href="comingsoon.html"><button id="view-project-btn">View</button></a>
+                    </div>
+                    <div id="container-two" class="project-container">
+                        <h4 id="project-heading">Project Two</h4>
+                        <div id="project-img">
+                            <img src="" alt="">
+                        </div>
+                        <a target="_blank" href="comingsoon.html"><button id="view-project-btn">View</button></a>
+                    </div>
+               
+                    <div id="container-three" class="project-container">  
+                        <h4 id="project-heading">Project Three</h4>
+                        <div id="project-img">
+                            <img src="" alt="">
+                        </div>
+                        <a target="_blank" href="comingsoon.html"><button id="view-project-btn">View</button></a>
+                    </div>
+                    <div id="container-four" class="project-container">
+                        <h4 id="project-heading">Project Four</h4>
+                        <div id="project-img">
+                            <img src="" alt="">
+                        </div>
+                        <a target="_blank" href="comingsoon.html"><button id="view-project-btn">View</button></a>
+                    </div>
+               
+            </div>
+        </div>
+    </section>
+
+    <section class="s2">
+        <div class="main-container" id="main-container-four">
+            <div class="youtube-container">
+                <div class="about-youtube">
+                    <h2 style="color: white;">Youtube</h2>
+                    <p>Once in a while I try making videos on Youtube, mostly realted to Tech..</p>
+                    <p>Click below, Just incase if you wanna check that out!</p>
+                    <a target="_blank" href="https://www.youtube.com/kishannaik"><button class="channel-btn" title="Opens in New Tab">You might want to click on this!</button></a>
+                </div>
+            </div>
+        
+            <div class="instagram-container">
+                <div class="about-instagram">
+                    <h2 style="color: white;">Instagram</h2>
+                    <p>Taking photos and Editing them is something that I personally love to do..</p>
+                    <p>I post quality photos on Instagram, if you wanna check that out just click the button below.</p>
+                    <p>Oh, Almost forgot, the background Sky photo is one of my shots, which I clicked in Gokarna beach....</p>
+                    <p>Beautiful Place by the way!</p>
+                    <a target="_blank" href="https://www.instagram.com/kishannaik__/"><button class="instagram-btn" title="Opens in New Tab">You might want to click on this!</button></a>
+                </div>
+             </div>
+        </div>
+    </section>
+
+
+    <section class="s1">
+        <div id="main-container-five" class="main-container">
+            <div id="contact" class="contact-me">
+                <div class="work-image">
+                    <img id="work-image" src="images/map.jpg" alt="">
+                </div>
+                <div class="message">
+
+                    <form action="connectme.php" method="POST" target="_blank">
+                        <input type="text" id="name" name="name" placeholder="Your name..">
+                        <br>
+                        <input type="email" id="email" name="email" placeholder="Your Email.."> 
+                        <br>
+                        <textarea id="subject" name="message" placeholder="What do you wanna say..."></textarea>
+                        <br>
+                        <input id="submit" type="submit" value="Send Message">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="main-container-six" class="s2">
+        <div class="main-container">
+            <div id="footer" class="footer">
+                <a href="#start"><button id="to-the-top">To the Top</button></a>
+
+                <div class="social-links-wrapper">
+                    <a target="_blank" href="https://www.facebook.com/kishanmukund/"><button class="social-icon"><i id="icon" style="color: rgb(66, 66, 66);" class="uim uim-facebook-f"></i></button></a>
+                    <a target="_blank" href="https://www.linkedin.com/in/shrinidhinaik/"><button style="margin-left: 10px;" class="social-icon"><i id="icon" style="color: rgb(66, 66, 66);" class="uim uim-linkedin-alt"></i></button></a>
+                    <a target="_blank" href="https://www.twitter.com/_kishannaik_"><button style="margin-left: 10px;" class="social-icon"><i id="icon" style="color: rgb(66, 66, 66);" class="uim uim-twitter-alt"></i></button></a>
+                    <a target="_blank" href="https://www.instagram.com/kishannaik__/"><button style="margin-left: 10px;" class="social-icon"><i id="icon" style="color: rgb(66, 66, 66);" class="uim uim-instagram"></i></button></a>
+                    <a target="_blank" href="https://www.youtube.com/kishannaik"><button style="margin-left: 10px;" class="social-icon"><i id="icon" style="color:rgb(66, 66, 66);" class="uil uil-youtube"></i></button></a>
+                </div>
+                <p class="credit">Designed by Shrinidhi Naik</p>
+            </div>
+        </div>
+    </section>
+</div>
+    <div class="popup" id="popupOne">
+        <h2 class="popup-header"><i id="popup-skills-icon" class="uil uil-brackets-curly skills__icon"></i>  FrontEnd Developer</h2>
+        <div class="skills-data">
+            <div class="skills-names">
+                
+                <span class="skills-name">HTML5</span>
+            </div>
+            <div>
+                <span class="skills-percentage">95%</span>
+            </div>
+            <div class="skills__bar skills__html">
+
+            </div>
+        </div>
+            <br><br>
+        
+        <div class="skills-data">
+            <div class="skills-names">
+                
+                <span class="skills-name">CSS3</span>
+            </div>
+            <div>
+                <span class="skills-percentage">90%</span>
+            </div>
+            <div class="skills__bar skills__css">
+
+            </div>
+        </div>
+            <br><br>
+        
+        
+        
+        <div class="skills-data">
+            <div class="skills-names">
+                
+                <span class="skills-name">Angular</span>
+            </div>
+            <div>
+                <span class="skills-percentage">75%</span>
+            </div>
+            <div class="skills__bar skills__angular">
+
+            </div>
+            
+        </div>
+        <br><br>
+        <button onclick="frontEnd()" id="close">Close</button>
+    </div>
+
+    <div class="popup" id="popupTwo">
+        <h2 class="popup-header"><i id="popup-skills-icon" class="uil uil-server-network skills__icon"></i> BackEnd Developer</h2>
+        <div class="skills-data">
+            <div class="skills-names">
+                <i class='bx bxl-html5 skills__icon'></i>
+                <span class="skills-name">TypeScript</span>
+            </div>
+            <div>
+                <span class="skills-percentage">70%</span>
+            </div>
+            <div class="skills__bar skills__typescript">
+
+            </div>
+            
+        </div>
+        <br><br>
+        <div class="skills-data">
+            <div class="skills-names">
+                <i class='bx bxl-html5 skills__icon'></i>
+                <span class="skills-name">JavaScript</span>
+            </div>
+            <div>
+                <span class="skills-percentage">70%</span>
+            </div>
+            <div class="skills__bar skills__javascript">
+
+            </div>
+        </div>
+            <br><br>
+        <button onclick="backEnd()" id="close">Close</button>
+    </div>
+
+    <div class="popup" id="popupThree">
+        <h2 class="popup-header"> <i id="popup-skills-icon" class="uil uil-swatchbook skills__icon"></i> UI UX Designer</h2>
+        <div class="skills-data">
+            <div class="skills-names">
+                <i class='bx bxl-html5 skills__icon'></i>
+                <span class="skills-name">Figma</span>
+            </div>
+            <div>
+                <span class="skills-percentage">85%</span>
+            </div>
+            <div class="skills__bar skills__figma">
+
+            </div>
+        </div>
+            <br><br>
+            <div class="skills-data">
+                <div class="skills-names">
+                    <i class='bx bxl-html5 skills__icon'></i>
+                    <span class="skills-name">Photoshop</span>
+                </div>
+                <div>
+                    <span class="skills-percentage">90%</span>
+                </div>
+                <div class="skills__bar skills__photoshop">
+    
+                </div>
+            </div>
+                <br><br>
+                <div class="skills-data">
+                    <div class="skills-names">
+                        <i class='bx bxl-html5 skills__icon'></i>
+                        <span class="skills-name">Adobe XD</span>
+                    </div>
+                    <div>
+                        <span class="skills-percentage">90%</span>
+                    </div>
+                    <div class="skills__bar skills__adobexd">
+        
+                    </div>
+                </div>
+                    <br><br>
+        <button onclick="uiux()" id="close">Close</button>
+    </div>
+
+    <script type="text/javascript" src="script.js"></script>
+    <script type="text/javascript" src="blur-script.js"></script>
+</body>
+</html>

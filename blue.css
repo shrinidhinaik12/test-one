@@ -1,0 +1,13 @@
+:root{
+    --mainColor: #34404d;
+    --secondaryColor: #192734;
+    --tertiaryColor: #192734;
+    --quaternaryColor: #15202B;
+
+    --borderColor: #0e1e2e;
+
+    --mainText: #FFFF;
+    --secondaryText: #eeeeee;
+
+    --themeDotBorder: #0e1e2e;
+}
